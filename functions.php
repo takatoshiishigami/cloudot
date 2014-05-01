@@ -13,9 +13,8 @@ function create_post_type() {
     'has_archive' => true,
     'rewrite' => array('slug' => '本'),
     'supports' => array('title','editor','thumbnail',
-    'custom-fields','excerpt','author','trackbacks',
-    'comments','revisions','page-attributes')
-    
+                        'excerpt','author',
+                        'comments','revisions')
     )
 	);
   register_taxonomy(
@@ -32,5 +31,4 @@ function create_post_type() {
     );
   /* ここまでを追加 */
 }
-
 ?>
