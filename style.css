@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Cloudot Theme
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Twelve Child Theme
+ Author:       Ryosuke Goto
+ Author URI:   http://example.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentytwelve/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+.entry-title a {
+  color: #336699;
+}
