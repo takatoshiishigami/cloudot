@@ -14,7 +14,7 @@ get_header();?>
 		
     <br>
     
-		<h2>月別アーカイブ:</h2>
+		<h2>月別アーカイブ１:</h2>
 		<ul>
 			<?php wp_get_archives('type=yearly');?>
 		</ul>
